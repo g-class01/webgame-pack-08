@@ -1,0 +1,11 @@
+Best performance on casual games?
++ Simpler collisions, no physics engine
++ Phong materials
+- Don't load everything
+- Smart shaders
+- No shadows
+- No lighting
+- No particles
+- No depencies / plugins
+- Decrease alpha textures
+- No HTML elements, focus on built-in GUI

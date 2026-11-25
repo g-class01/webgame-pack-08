@@ -1,0 +1,27 @@
+
+puncher.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gun1
+  rotate: false
+  xy: 116, 17
+  size: 106, 67
+  orig: 106, 67
+  offset: 0, 0
+  index: -1
+Gun2
+  rotate: false
+  xy: 2, 2
+  size: 73, 17
+  orig: 73, 17
+  offset: 0, 0
+  index: -1
+Gun3
+  rotate: false
+  xy: 2, 21
+  size: 112, 63
+  orig: 112, 63
+  offset: 0, 0
+  index: -1

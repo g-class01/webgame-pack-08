@@ -1,0 +1,20 @@
+
+multi_freezer.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Base
+  rotate: false
+  xy: 2, 2
+  size: 224, 221
+  orig: 224, 221
+  offset: 0, 0
+  index: -1
+Gun
+  rotate: false
+  xy: 228, 139
+  size: 37, 84
+  orig: 37, 84
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<content>
+	<levels>
+		<level id="level_0">
+			<note>Deploy weapons at lower base for ground units</note>
+			<name>First Encounter</name>
+			<arenaWidth>3100</arenaWidth>
+			<baseUnlocked>left</baseUnlocked>
+			<startingCoins>200</startingCoins>
+			<extraCoins>75</extraCoins>
+			<spawnTimeDeduction>0</spawnTimeDeduction>
+			<addHealthPerEnemy>25</addHealthPerEnemy>
+			<addDamagePerEnemy>0</addDamagePerEnemy>
+			<addCoinPerEnemey>0</addCoinPerEnemey>
+			<bg>0</bg>
+			<coinReward>100</coinReward>
+			<enemies>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>0</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>mace</id> <side>left</side> <dtime>8</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+			</enemies>
+
+		</level>
+
+		<level id="level_2">
+			<note>Use cannon and gunner for a powerful defense</note>
+			<name>Resistance</name>
+			<arenaWidth>3250</arenaWidth>
+			<baseUnlocked>right</baseUnlocked>
+			<spawnTimeDeduction>0.25</spawnTimeDeduction>
+			<addHealthPerEnemy>50</addHealthPerEnemy>
+			<addDamagePerEnemy>0</addDamagePerEnemy>
+			<addCoinPerEnemey>3</addCoinPerEnemey>
+			<startingCoins>150</startingCoins>
+			<extraCoins>100</extraCoins>
+			<coinReward>200</coinReward>
+			<bg>2</bg>
+			<enemies>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>mace</id> <side>right</side> <dtime>10</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>right</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>mace</id> <side>right</side> <dtime>15</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>right</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>right</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>right</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>right</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+			</enemies>
+		</level>
+
+		<level id="level_3">
+			<note>Weapons deployed in middle can target in both directions</note>
+			<name>Cover</name>
+			<arenaWidth>3000</arenaWidth>
+			<baseUnlocked>full</baseUnlocked>
+			<spawnTimeDeduction>1</spawnTimeDeduction>
+			<addHealthPerEnemy>75</addHealthPerEnemy>
+			<addDamagePerEnemy>4</addDamagePerEnemy>
+			<addCoinPerEnemey>5</addCoinPerEnemey>
+			<startingCoins>200</startingCoins>
+			<extraCoins>100</extraCoins>
+			<coinReward>250</coinReward>
+			<bg>1</bg>
+			<enemies>
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>3</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>mace</id> <side>right</side> <dtime>15</dtime> <scale>0.9</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>5</dtime> <scale>0.9</scale> </enemy>
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>mace</id> <side>right</side> <dtime>20</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>right</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>right</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>right</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+
+			</enemies>
+		</level>
+
+		<level id="level_4">
+			<note>Executioner Robots have low resistance, Deploy different special weapons in the lane</note>
+			<name>Executioner</name>
+			<arenaWidth>3000</arenaWidth>
+			<spawnTimeDeduction>1</spawnTimeDeduction>
+			<addHealthPerEnemy>100</addHealthPerEnemy>
+			<addDamagePerEnemy>10</addDamagePerEnemy>
+			<addCoinPerEnemey>10</addCoinPerEnemey>
+			<startingCoins>250</startingCoins>
+			<extraCoins>100</extraCoins>
+			<coinReward>275</coinReward>
+			<bg>1</bg>
+			<baseUnlocked>full</baseUnlocked>
+			<enemies>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>8</dtime> <scale>1</scale> </enemy>
+
+				<enemy> <id>mace</id> <side>right</side> <dtime>15</dtime> <scale>0.9</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>5</dtime> <scale>0.9</scale> </enemy>
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>2.5</dtime> <scale>0.85</scale> </enemy>
+
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>executioner</id> <side>right</side> <dtime>12</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+
+			</enemies>
+		</level>
+
+		<level id="level_5">
+			<note>Intruders fly in the air, deploy weapons which lock on enemies</note>
+			<name>Intruders</name>
+			<arenaWidth>3500</arenaWidth>
+			<spawnTimeDeduction>1.25</spawnTimeDeduction>
+			<addHealthPerEnemy>0</addHealthPerEnemy>
+			<addDamagePerEnemy>0</addDamagePerEnemy>
+			<addCoinPerEnemey>5</addCoinPerEnemey>
+			<startingCoins>275</startingCoins>
+			<extraCoins>125</extraCoins>
+			<coinReward>300</coinReward>
+			<baseUnlocked>left</baseUnlocked>
+			<bg>0</bg>
+			<enemies>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>3.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>3.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>3.5</dtime> <scale>0.85</scale> </enemy>
+
+
+				<enemy> <id>executioner</id> <side>left</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>3.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>3.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>3.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>3.5</dtime> <scale>0.85</scale> </enemy>
+
+
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>8</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>intruder</id> <side>left</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+
+
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>8</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>intruder</id> <side>left</side> <dtime>8</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+
+			</enemies>
+		</level>
+
+		<level id="level_6">
+			<note>Weapons with splash damage will be effective</note>
+			<name>Swarm</name>
+			<arenaWidth>3500</arenaWidth>
+			<spawnTimeDeduction>1.5</spawnTimeDeduction>
+			<addHealthPerEnemy>25</addHealthPerEnemy>
+			<addDamagePerEnemy>5</addDamagePerEnemy>
+			<addCoinPerEnemey>5</addCoinPerEnemey>
+			<startingCoins>400</startingCoins>
+			<extraCoins>150</extraCoins>
+			<coinReward>350</coinReward>
+			<bg>0</bg>
+			<baseUnlocked>full</baseUnlocked>
+			<enemies>
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>6</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+
+
+				<enemy> <id>executioner</id> <side>right</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>8</dtime> <scale>0.9</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>2</dtime> <scale>0.9</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>executioner</id> <side>right</side> <dtime>8</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>8</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>8</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+	
+			</enemies>
+		</level>
+
+		<level id="level_7">
+			<note>Special weapons are effective against bigger targets</note>
+			<name>It Begins</name>
+
+			<arenaWidth>3500</arenaWidth>
+			<spawnTimeDeduction>1.75</spawnTimeDeduction>
+			<addHealthPerEnemy>50</addHealthPerEnemy>
+			<addDamagePerEnemy>4</addDamagePerEnemy>
+			<addCoinPerEnemey>5</addCoinPerEnemey>
+			<bg>0</bg>
+			<coinReward>450</coinReward>
+			<startingCoins>300</startingCoins>
+			<extraCoins>125</extraCoins>
+			<baseUnlocked>right</baseUnlocked>
+
+			<enemies>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>8</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+
+				<enemy> <id>mace</id> <side>right</side> <dtime>10</dtime> <scale>0.9</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>mace</id> <side>right</side> <dtime>2</dtime> <scale>0.9</scale> </enemy>
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>12</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+
+
+				<enemy> <id>cutter</id> <side>right</side> <dtime>20</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+
+				<enemy> <id>executioner</id> <side>right</side> <dtime>12</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>3</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+
+
+			</enemies>
+		</level>
+
+		<level id="level_8">
+			<note>Use Poison and Electric weapons to slow down the rush</note>
+			<name>Rush</name>
+
+			<arenaWidth>3500</arenaWidth>
+			<spawnTimeDeduction>2</spawnTimeDeduction>
+			<addHealthPerEnemy>75</addHealthPerEnemy>
+			<addDamagePerEnemy>0</addDamagePerEnemy>
+			<addCoinPerEnemey>10</addCoinPerEnemey>
+			<bg>1</bg>
+			<coinReward>500</coinReward>
+			<startingCoins>450</startingCoins>
+			<extraCoins>150</extraCoins>
+			<baseUnlocked>full</baseUnlocked>
+			<enemies>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>8</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>4</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>grinder</id> <side>right</side> <dtime>6</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>grinder</id> <side>left</side> <dtime>6</dtime> <scale>1</scale> </enemy>
+
+				<enemy> <id>grinder</id> <side>right</side> <dtime>12</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>grinder</id> <side>left</side> <dtime>1</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+
+				<enemy> <id>cutter</id> <side>right</side> <dtime>25</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>grinder</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>grinder</id> <side>left</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>10</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+
+				<enemy> <id>executioner</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+
+			</enemies>
+		</level>
+
+		<level id="level_9">
+			<note>Tiny Robots have low profile and are harder to detect</note>
+			<name>Tiny Defense</name>
+			<arenaWidth>3000</arenaWidth>
+			<spawnTimeDeduction>2.25</spawnTimeDeduction>
+			<addHealthPerEnemy>50</addHealthPerEnemy>
+			<addDamagePerEnemy>0</addDamagePerEnemy>
+			<addCoinPerEnemey>5</addCoinPerEnemey>
+			<bg>2</bg>
+			<coinReward>300</coinReward>
+			<startingCoins>350</startingCoins>
+			<extraCoins>150</extraCoins>
+			<baseUnlocked>full</baseUnlocked>
+			<enemies>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>2</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>2</dtime> <scale>0.5</scale> </enemy>
+
+				<enemy> <id>mace</id> <side>left</side> <dtime>10</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+
+				<enemy> <id>mace</id> <side>right</side> <dtime>15</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>mace</id> <side>left</side> <dtime>5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+
+				<enemy> <id>executioner</id> <side>right</side> <dtime>12</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>executioner</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>executioner</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>6</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>1.5</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+
+			</enemies>
+		</level>
+
+		<level id="level_10">
+			<note>Stop the cranes using special weapons</note>
+			<name>Defense Day</name>
+			<arenaWidth>4000</arenaWidth>
+			<bg>2</bg>
+			<spawnTimeDeduction>2.5</spawnTimeDeduction>
+			<addHealthPerEnemy>200</addHealthPerEnemy>
+			<addDamagePerEnemy>0</addDamagePerEnemy>
+			<addCoinPerEnemey>50</addCoinPerEnemey>
+			<coinReward>350</coinReward>
+			<startingCoins>400</startingCoins>
+			<extraCoins>150</extraCoins>
+			<baseUnlocked>right</baseUnlocked>
+			<enemies>
+				<enemy> <id>crane</id> <side>right</side> <dtime>10</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>10</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>10</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>10</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>10</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>8</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>7</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+			</enemies>
+		</level>
+
+		<level id="level_11">
+			<note>It will be more tougher than you can imagine. Upgrade Everything</note>
+			<name>It Ends?</name>
+			<arenaWidth>3750</arenaWidth>
+			<bg>0</bg>
+			<spawnTimeDeduction>2.5</spawnTimeDeduction>
+			<addHealthPerEnemy>100</addHealthPerEnemy>
+			<addDamagePerEnemy>10</addDamagePerEnemy>
+			<addCoinPerEnemey>10</addCoinPerEnemey>
+			<coinReward>1000</coinReward>
+			<startingCoins>1000</startingCoins>
+			<extraCoins>300</extraCoins>
+			<baseUnlocked>full</baseUnlocked>
+			<enemies>
+
+				<enemy> <id>cutter</id> <side>right</side> <dtime>30</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>grinder</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>grinder</id> <side>left</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+
+				<enemy> <id>grinder</id> <side>right</side> <dtime>12</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>grinder</id> <side>left</side> <dtime>1</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>1</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>1</dtime> <scale>1</scale> </enemy>
+
+				<enemy> <id>cutter</id> <side>right</side> <dtime>10</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>grinder</id> <side>right</side> <dtime>2</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>grinder</id> <side>left</side> <dtime>1</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>10</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>1</dtime> <scale>1</scale> </enemy>
+
+
+				<enemy> <id>grinder</id> <side>right</side> <dtime>15</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>grinder</id> <side>left</side> <dtime>1</dtime> <scale>1</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>12</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>0.25</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>right</side> <dtime>0.25</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_b</id> <side>left</side> <dtime>0.25</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>right</side> <dtime>0.25</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>hammer_a</id> <side>left</side> <dtime>0.25</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+
+				<enemy> <id>crane</id> <side>right</side> <dtime>20</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>8</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>4</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.5</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>2</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>right</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>crane</id> <side>left</side> <dtime>1</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>left</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>intruder</id> <side>right</side> <dtime>0.25</dtime> <scale>0.85</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>cutter</id> <side>right</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+				<enemy> <id>cutter</id> <side>left</side> <dtime>1</dtime> <scale>0.5</scale> </enemy>
+			</enemies>
+		</level>
+	</levels>
+
+</content>

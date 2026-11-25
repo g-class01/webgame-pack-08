@@ -1,0 +1,118 @@
+
+hammer_a.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bio
+  rotate: false
+  xy: 1697, 439
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 1267, 378
+  size: 146, 116
+  orig: 146, 116
+  offset: 0, 0
+  index: -1
+F_leg1
+  rotate: true
+  xy: 1622, 437
+  size: 57, 73
+  orig: 57, 73
+  offset: 0, 0
+  index: -1
+F_leg2
+  rotate: false
+  xy: 1415, 396
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+F_leg3
+  rotate: false
+  xy: 1549, 427
+  size: 71, 67
+  orig: 71, 67
+  offset: 0, 0
+  index: -1
+GetFreez
+  rotate: false
+  xy: 622, 188
+  size: 205, 306
+  orig: 205, 306
+  offset: 0, 0
+  index: -1
+Hammer
+  rotate: false
+  xy: 829, 318
+  size: 256, 176
+  orig: 256, 176
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 622, 58
+  size: 204, 128
+  orig: 204, 128
+  offset: 0, 0
+  index: -1
+Light1
+  rotate: false
+  xy: 1087, 371
+  size: 178, 123
+  orig: 178, 123
+  offset: 0, 0
+  index: -1
+Light2
+  rotate: false
+  xy: 829, 242
+  size: 252, 74
+  orig: 252, 74
+  offset: 0, 0
+  index: -1
+Light3
+  rotate: false
+  xy: 2, 2
+  size: 241, 49
+  orig: 241, 49
+  offset: 0, 0
+  index: -1
+Light4
+  rotate: false
+  xy: 1087, 319
+  size: 69, 50
+  orig: 69, 50
+  offset: 0, 0
+  index: -1
+Light5
+  rotate: false
+  xy: 829, 191
+  size: 107, 49
+  orig: 107, 49
+  offset: 0, 0
+  index: -1
+Poison
+  rotate: false
+  xy: 1415, 421
+  size: 132, 73
+  orig: 132, 73
+  offset: 0, 0
+  index: -1
+Poison2
+  rotate: false
+  xy: 245, 21
+  size: 42, 30
+  orig: 42, 30
+  offset: 0, 0
+  index: -1
+Splash
+  rotate: false
+  xy: 2, 53
+  size: 618, 441
+  orig: 618, 441
+  offset: 0, 0
+  index: -1

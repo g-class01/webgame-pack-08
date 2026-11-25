@@ -1,0 +1,20 @@
+
+multi_poisoner.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Base
+  rotate: false
+  xy: 2, 69
+  size: 244, 172
+  orig: 244, 172
+  offset: 0, 0
+  index: -1
+Gun
+  rotate: false
+  xy: 2, 2
+  size: 63, 65
+  orig: 63, 65
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+freeze.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gun2
+  rotate: false
+  xy: 236, 45
+  size: 69, 50
+  orig: 69, 50
+  offset: 0, 0
+  index: -1
+Gun3
+  rotate: false
+  xy: 2, 2
+  size: 232, 93
+  orig: 232, 93
+  offset: 0, 0
+  index: -1

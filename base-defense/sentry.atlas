@@ -1,0 +1,20 @@
+
+sentry.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gun2
+  rotate: false
+  xy: 2, 2
+  size: 118, 46
+  orig: 118, 46
+  offset: 0, 0
+  index: -1
+Gun3
+  rotate: false
+  xy: 2, 50
+  size: 112, 63
+  orig: 112, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script>
+(function() {
+    function dummyBreak(fn) {
+        if (typeof fn === 'function') fn();
+        return Promise.resolve(true);
+    }
+    window.commercialBreak = window.commercialBreak || dummyBreak;
+    window.rewardedBreak = window.rewardedBreak || dummyBreak;
+    try {
+        if (window.parent && window.parent !== window) {
+            window.parent.commercialBreak = window.parent.commercialBreak || dummyBreak;
+            window.parent.rewardedBreak = window.parent.rewardedBreak || dummyBreak;
+        }
+        if (window.top && window.top !== window) {
+            window.top.commercialBreak = window.top.commercialBreak || dummyBreak;
+            window.top.rewardedBreak = window.top.rewardedBreak || dummyBreak;
+        }
+    } catch(e) {}
+})();
+</script>
+  <script>window.open = function () {}; window.NOSW = true;</script>
+<script src="poki-sdk.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>ArithmeticA</title>
+  <script type="module" crossorigin src="./assets/index-D_t7seLF.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/phaser-CLYd3JIB.js">
+</head>
+
+<body>
+    <div id="app">
+        <div id="game-container"></div>
+    </div>
+</body>
+</html>

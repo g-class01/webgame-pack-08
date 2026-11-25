@@ -1,0 +1,32 @@
+{
+    "entries": [
+        {
+            "name": "meta-logo",
+            "ext": "png",
+            "path": "meta-logo.png",
+            "fallbackExt": "",
+            "fallbackPath": ""
+        },
+        {
+            "name": "meta",
+            "ext": "mp4",
+            "path": "meta.mp4",
+            "fallbackExt": "",
+            "fallbackPath": ""
+        },
+        {
+            "name": "streamingassets_manifest",
+            "ext": "json",
+            "path": "streamingassets_manifest.json",
+            "fallbackExt": "",
+            "fallbackPath": ""
+        },
+        {
+            "name": "tutorial",
+            "ext": "webm",
+            "path": "tutorial.webm",
+            "fallbackExt": "",
+            "fallbackPath": ""
+        }
+    ]
+}

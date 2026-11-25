@@ -1,0 +1,15 @@
+{
+    "header": {
+        "version": 1
+    },
+    "data": [
+        {
+            "info": {
+                "locale": "en-US"
+            },
+            "messages": {
+                "Use Arrows": "Use Arrows"
+            }
+        }
+    ]
+}

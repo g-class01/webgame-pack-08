@@ -1,0 +1,82 @@
+{
+"skeleton": { "hash": "QiNlzCtxRAn18aZjJXEiQXQyZCE", "spine": "3.7.91", "width": 312.27, "height": 96, "images": "./Images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 30.2, "rotation": 0, "x": -70, "y": 37, "scaleY":-1 },
+	{ "name": "bone2", "parent": "bone", "length": 28.39, "rotation": 1.22, "x": 109.49, "y": -11.33 }
+],
+"slots": [
+	{ "name": "Gun2", "bone": "bone2", "attachment": "Gun2" },
+	{ "name": "Gun3", "bone": "bone", "attachment": "Gun3" }
+],
+"skins": {
+	"default": {
+		"Gun2": {
+			"Gun2": { "x": 24.06, "y": -0.6, "rotation": 178.78, "width": 256, "height": 73 }
+		},
+		"Gun3": {
+			"Gun3": { "x": 33.79, "y": -10.19, "rotation": 180, "width": 169, "height": 96 }
+		}
+	}
+},
+"animations": {
+	"Shoot": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": -25.9, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

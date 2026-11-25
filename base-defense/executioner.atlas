@@ -1,0 +1,118 @@
+
+executioner.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bio
+  rotate: false
+  xy: 1488, 363
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 829, 264
+  size: 217, 230
+  orig: 217, 230
+  offset: 0, 0
+  index: -1
+F_leg1
+  rotate: false
+  xy: 1429, 345
+  size: 57, 73
+  orig: 57, 73
+  offset: 0, 0
+  index: -1
+F_leg2
+  rotate: true
+  xy: 802, 160
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+F_leg3
+  rotate: false
+  xy: 963, 195
+  size: 71, 67
+  orig: 71, 67
+  offset: 0, 0
+  index: -1
+GetFreez
+  rotate: false
+  xy: 622, 188
+  size: 205, 306
+  orig: 205, 306
+  offset: 0, 0
+  index: -1
+Hammer
+  rotate: false
+  xy: 1048, 322
+  size: 272, 172
+  orig: 272, 172
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 1322, 321
+  size: 105, 97
+  orig: 105, 97
+  offset: 0, 0
+  index: -1
+Light1
+  rotate: false
+  xy: 622, 63
+  size: 178, 123
+  orig: 178, 123
+  offset: 0, 0
+  index: -1
+Light2
+  rotate: false
+  xy: 1322, 420
+  size: 252, 74
+  orig: 252, 74
+  offset: 0, 0
+  index: -1
+Light3
+  rotate: false
+  xy: 2, 2
+  size: 241, 49
+  orig: 241, 49
+  offset: 0, 0
+  index: -1
+Light4
+  rotate: false
+  xy: 1048, 270
+  size: 69, 50
+  orig: 69, 50
+  offset: 0, 0
+  index: -1
+Light5
+  rotate: false
+  xy: 1576, 445
+  size: 107, 49
+  orig: 107, 49
+  offset: 0, 0
+  index: -1
+Poison
+  rotate: false
+  xy: 829, 189
+  size: 132, 73
+  orig: 132, 73
+  offset: 0, 0
+  index: -1
+Poison2
+  rotate: false
+  xy: 245, 21
+  size: 42, 30
+  orig: 42, 30
+  offset: 0, 0
+  index: -1
+Splash
+  rotate: false
+  xy: 2, 53
+  size: 618, 441
+  orig: 618, 441
+  offset: 0, 0
+  index: -1

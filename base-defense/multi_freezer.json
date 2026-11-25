@@ -1,0 +1,33 @@
+{
+"skeleton": { "hash": "N3SAmJ+4+6jduhbbTDrlPEg4WMc", "spine": "3.7.91", "width": 224, "height": 221, "images": "./Images/", "audio": "" },
+"bones": [
+	{ "name": "root", "x":-4, "y": -64}
+],
+"slots": [
+	{ "name": "Gun", "bone": "root", "attachment": "Gun" },
+	{ "name": "Base", "bone": "root", "attachment": "Base" }
+],
+"skins": {
+	"default": {
+		"Base": {
+			"Base": { "x": 1.5, "y": 174, "width": 224, "height": 221 }
+		},
+		"Gun": {
+			"Gun": { "x": 7.77, "y": 203.39, "width": 37, "height": 84 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"Gun": {
+				"color": [
+					{ "time": 0, "color": "fffffff0" },
+					{ "time": 0.1667, "color": "ff9056f0" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

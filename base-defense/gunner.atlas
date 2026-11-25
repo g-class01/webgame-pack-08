@@ -1,0 +1,27 @@
+
+gunner.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gun1
+  rotate: true
+  xy: 188, 132
+  size: 78, 38
+  orig: 78, 38
+  offset: 0, 0
+  index: -1
+Gun2
+  rotate: false
+  xy: 2, 2
+  size: 65, 63
+  orig: 65, 63
+  offset: 0, 0
+  index: -1
+Gun3
+  rotate: false
+  xy: 2, 67
+  size: 184, 143
+  orig: 184, 143
+  offset: 0, 0
+  index: -1

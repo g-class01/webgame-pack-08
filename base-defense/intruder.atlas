@@ -1,0 +1,97 @@
+
+intruder.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BLeg
+  rotate: false
+  xy: 2, 2
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+Body
+  rotate: true
+  xy: 497, 64
+  size: 62, 88
+  orig: 62, 88
+  offset: 0, 0
+  index: -1
+DeathFx1
+  rotate: false
+  xy: 413, 44
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+DeathFx2
+  rotate: true
+  xy: 123, 22
+  size: 15, 73
+  orig: 15, 73
+  offset: 0, 0
+  index: -1
+FLeg
+  rotate: false
+  xy: 22, 2
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+Gas
+  rotate: true
+  xy: 721, 99
+  size: 27, 62
+  orig: 27, 62
+  offset: 0, 0
+  index: -1
+Get_electric
+  rotate: false
+  xy: 2, 18
+  size: 119, 108
+  orig: 119, 108
+  offset: 0, 0
+  index: -1
+Gun
+  rotate: false
+  xy: 587, 90
+  size: 75, 36
+  orig: 75, 36
+  offset: 0, 0
+  index: -1
+Hand
+  rotate: false
+  xy: 497, 54
+  size: 17, 8
+  orig: 17, 8
+  offset: 0, 0
+  index: -1
+Ice
+  rotate: true
+  xy: 226, 48
+  size: 78, 99
+  orig: 78, 99
+  offset: 0, 0
+  index: -1
+ShootFx1
+  rotate: false
+  xy: 327, 46
+  size: 84, 80
+  orig: 84, 80
+  offset: 0, 0
+  index: -1
+ShootFx2
+  rotate: false
+  xy: 664, 81
+  size: 55, 45
+  orig: 55, 45
+  offset: 0, 0
+  index: -1
+Skull
+  rotate: false
+  xy: 123, 39
+  size: 101, 87
+  orig: 101, 87
+  offset: 0, 0
+  index: -1

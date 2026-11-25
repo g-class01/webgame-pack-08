@@ -1,0 +1,1 @@
+/* Poki loading screen stub */
